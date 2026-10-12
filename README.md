@@ -9,7 +9,7 @@ Static site: `index.html` is the whole page. `Tinubu_Damilola_Frank_Resume.pdf` 
 3. Open the repository Settings > Pages. Under Build and deployment choose Deploy from a branch, branch `main`, folder `/ (root)`, Save.
 4. After a minute the site is live at https://dixkox.github.io
 
-## Use dixkox.tech
+## Use dixkox.online
 1. In Settings > Pages > Custom domain enter `dixkox.tech` and Save (tick Enforce HTTPS when it appears).
 2. At the domain registrar's DNS settings add four A records for `@` pointing to 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153, and a CNAME for `www` pointing to dixkox.github.io.
 3. Wait for DNS to update (minutes to a few hours).
