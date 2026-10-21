@@ -1,21 +1,27 @@
-[README.md](https://github.com/user-attachments/files/33325134/README.md)
-# Portfolio site (Tinubu Damilola Frank)
+# Tinubu Damilola Frank: portfolio website
 
-Static site: `index.html` is the whole page. `Tinubu_Damilola_Frank_Resume.pdf` is the resume linked from it.
+Live site: **https://frank.dixkox.online**
+Repository: https://github.com/dixkox/dixkox.github.io
 
-## Host it free on GitHub Pages
-1. On GitHub, create a repository in the dixkox account named `dixkox.github.io` (public).
-2. Upload everything in this folder (index.html, the PDF, .nojekyll) with Add file > Upload files, then Commit.
-3. Open the repository Settings > Pages. Under Build and deployment choose Deploy from a branch, branch `main`, folder `/ (root)`, Save.
-4. After a minute the site is live at https://dixkox.github.io
+## What is in this repository
 
-## Use dixkox.online
-1. In Settings > Pages > Custom domain enter `dixkox.tech` and Save (tick Enforce HTTPS when it appears).
-2. At the domain registrar's DNS settings add four A records for `@` pointing to 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153, and a CNAME for `www` pointing to dixkox.github.io.
-3. Wait for DNS to update (minutes to a few hours).
+| File | What it is |
+|---|---|
+| `index.html` | The whole website. All photos, the capstone video and the graduation image are built into this one file. |
+| `Tinubu_Damilola_Frank_Resume.pdf` | The résumé linked from the site. |
+| `CNAME` | Connects the site to frank.dixkox.online. Do not delete or edit it. |
+| `.nojekyll` | Tells GitHub to publish the files exactly as they are. Do not delete it. |
+| `photos/` | Original copies of the photos and video (backup only; the site does not need them). |
 
-## Add a new certification later
-1. Open `index.html` on GitHub and click the pencil (Edit).
-2. Search for `Other training` or the school's dropdown (for example `Quantic School`).
-3. Copy an existing line like `<li><span>Name, Issuer</span><time>2026</time></li>`, paste it in the right list, change the text, and update the number in the dropdown heading.
-4. Commit. The live site updates in about a minute.
+## How to update the site
+
+1. Rename your new file on your computer to exactly `index.html` (not `index (1).html`).
+2. On GitHub: **Add file → Upload files**, drag in `index.html`, then **Commit changes**. GitHub replaces the old file automatically, so do not delete anything first.
+3. Open the **Actions** tab and wait for the green tick.
+4. Open https://frank.dixkox.online in a private window, or press Ctrl+Shift+R.
+
+## GitHub Pages settings (already set up)
+
+- Settings → Pages → Build and deployment: **Deploy from a branch**, branch `main`, folder `/ (root)`.
+- Custom domain: `frank.dixkox.online`, with **Enforce HTTPS** ticked.
+- DNS at GoDaddy (dixkox.online): a **CNAME** record for `frank` pointing to `dixkox.github.io`.
